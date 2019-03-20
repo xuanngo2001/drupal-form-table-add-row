@@ -7,7 +7,7 @@ use Drupal\Core\Form\FormStateInterface;
 class FormTableAddMoreRow extends FormBase {
 
     public function getFormId() {
-        return 'tradesteps_table_add_row';
+        return 'tradesteps_form_table_add_row';
     }
 
     public function buildForm(array $form, FormStateInterface $form_state) {
