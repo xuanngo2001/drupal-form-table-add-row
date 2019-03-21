@@ -43,13 +43,14 @@ class FormTableAddMoreRow extends FormBase {
                                             );
         }
     
-        // Add row button.
+        // 'Add row' button.
         $form['actions']['add_row'] = [
                                         '#type' => 'submit',
                                         '#value' => $this->t('Add row'),
                                         '#submit' => array('::addRowCallback'),
                                     ];
-    
+        
+        // Submit button.
         $form['actions']['submit'] = [
                                         '#type' => 'submit',
                                         '#value' => $this->t('Submit'),
